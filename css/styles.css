@@ -1,0 +1,250 @@
+html, body {
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+  color: #616060;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.4em;
+  margin: 0px;
+}
+
+main {
+  padding: 10px;
+  background-color: #fff;
+}
+
+header {
+  padding: 10px;
+  background-color: #007FAB;
+  border-bottom: 5px solid #E7DAAD;
+  text-align: center;
+}
+
+nav ul{
+  display: none;
+}
+
+.breadcrumb{
+  display: none;
+}
+
+#menu {
+  display: block;
+  color: #FFF;
+  background-color: #007FAB;
+  padding: 10px;
+}
+
+#menu picture{
+  float: right;
+}
+
+#submenu {
+  display: block;
+  color: #007FAB;
+  background-color: #D9ECF3;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+#submenu picture{
+  float: right;
+}
+
+h1{
+  font-size: 16px;
+}
+
+h3 {
+  font-size: 14px;
+}
+
+nav ul{
+  display: none;
+}
+
+.breadcrumb{
+  display: none;
+}
+
+section picture{
+  float: left;
+  padding: 0px 20px 10px 0px;
+}
+
+aside {
+  display: none;
+}
+
+.row {
+    padding-top: 20px;
+    display: -webkit-flex;
+    display: block;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    background-color: #E5E3E6;
+}
+
+article {
+  margin: 20px;
+}
+
+article:last-of-type {
+  margin-bottom: 0;
+}
+
+article p{
+  padding: 10px;
+}
+
+article h2 {
+  font-size: 16px;
+  background-color: #0084A9;
+  color: #fff;
+  padding: 10px;
+  border-bottom: 5px solid #E7DAAD;
+}
+
+#input_container {
+  display: inline-flex;
+  max-width: 100%;
+  padding: 1px;
+  border: 1px solid #d0dcdc;
+  margin: 10px;
+  background-color: #FFF;
+}
+
+input, select {
+  width: 275px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+}
+
+#input_img {
+  padding: 10px;
+  background-color: #D9ECF3;
+}
+
+footer {
+  border-top: 5px solid #E7DAAD;
+  background-color: #01526A;
+  text-align: center;
+  color: #F6F6F6;
+  height: 180px;
+}
+
+@media screen and (min-width: 1200px){
+  html, body {
+    width: 75%;
+    background-color: #E5E3E6;
+    margin: auto;
+  }
+
+  header {
+    text-align: left;
+    padding: 10px 20px 15px 20px;
+  }
+
+  main{
+    padding: 0px;
+  }
+
+  h1 {
+    font-size: 34px;
+  }
+
+  h2{
+    font-size: 20px;
+  }
+
+  h3, h4, h5, h6 {
+    font-size: 16px;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  #submenu {
+    display: none;
+  }
+
+  nav ul{
+    display: block;
+    margin-top: 0px;
+    padding: 10px;
+    border-bottom: 1px solid #E7DAAD;
+  }
+
+  nav ul li {
+    list-style: none;
+    font-size: 20px;
+    padding: 20px;
+    cursor: pointer;
+    display: inline;
+  }
+
+  .breadcrumb{
+    display: block;
+    padding: 0px 20px 10px 20px;
+    border-bottom: 1px solid #E7DAAD;
+  }
+
+  a {
+    color: #0084A9;
+    text-decoration: none;
+  }
+
+  section {
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+
+  aside {
+    display: block;
+    float: right;
+    padding-right: 20px;
+  }
+
+  aside ul li {
+    list-style: none;
+    padding: 10px;
+    background-color: #D9ECF3;
+    color: #0084A9;
+    font-weight: bold;
+    border-bottom: 1px solid #fff;
+  }
+
+  aside ul li:hover{
+    background-color: #0084A9;
+    color: #FFF;
+    cursor: pointer;
+  }
+
+  .row {
+    display: flex;
+    padding-top: 0px;
+  }
+
+  article {
+    margin-left: 10px;
+  }
+
+  article:last-of-type {
+    margin-right: 0px;
+  }
+
+  #input-container {
+    max-width: 100%;
+  }
+
+  input, select {
+    height: 40px;
+    font-size: 16px;
+  }
+
+  #input_img {
+    padding: 10px;
+  }
+}
